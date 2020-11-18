@@ -1,0 +1,30 @@
+[33mcommit 85bd28eafc94c3e86135c85904ad27de6ca18d1d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Telesia <sarahtelesia@gmail.com>
+Date:   Wed Nov 18 20:57:23 2020 +0000
+
+    Add search form to homepage
+    Add css for hover feature on search bar. Add css for main-heading
+
+[33mcommit 77b523bb15be60574b3e238155ccfa9b045baa89[m
+Author: Telesia <sarahtelesia@gmail.com>
+Date:   Tue Nov 17 19:46:32 2020 +0000
+
+    Add main h1 to website - Lockdown Cocktail
+
+[33mcommit 8a45d68ed802df7db016a9bcdbe52197519c8c08[m
+Author: Telesia <sarahtelesia@gmail.com>
+Date:   Tue Nov 17 19:19:16 2020 +0000
+
+    Add navbar and website logo via icons8 CDN
+
+[33mcommit daf145be3dab6a35b79086d845475c5f84cf5d81[m
+Author: Telesia <sarahtelesia@gmail.com>
+Date:   Tue Nov 17 18:55:10 2020 +0000
+
+    Initial commit
+
+[33mcommit fd97c56d1a1cc20ac6dcbf5dbfbddc68ffb59e34[m
+Author: Sarah Telesia <66113301+Telesia@users.noreply.github.com>
+Date:   Tue Nov 17 18:37:02 2020 +0000
+
+    Initial commit

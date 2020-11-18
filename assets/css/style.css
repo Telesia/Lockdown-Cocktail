@@ -5,16 +5,38 @@
 }
 
 .main-container {
-    padding-top: 12rem;
+    padding-top: 8rem;
 }
+
 
 /*------------Main Search Section-----------*/
 
-h1 {
+.main-heading {
     color: pink;
-    justify-content: center;
+    text-align: center;
+    padding: 2rem;
 }
 
+/* Taken from https://mdbootstrap.com/docs/jquery/forms/search/*/ 
 .active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
   border-bottom: 1px solid #4dd0e1;
   box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+/*------------Footer-----------*/
+
+.footer-container {
+    padding: 2rem;
+    margin: 1rem;
+    position: relative;
+}
+
+
+
+/*https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing*/
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
+}
