@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main-container {
+    padding-top: 12rem;
+}
+
+/*------------Main Search Section-----------*/
+
+h1 {
+    color: pink;
+    justify-content: center;
+}
+
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
