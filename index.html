@@ -43,8 +43,12 @@
                 <div class="row">
                     <div class="col">
                         <h1 class="main-heading">Lockdown Cocktail</h1>
-                        <p class="sales-pitch">Stuck in lockdown? Not able to get to the shops? Bored of the same old drinks? 
-                        Never fear Lockdown Cocktail is here! Inspo from your cupboards to shake up a new cocktail in moments. </p>
+                        <p class="sales-pitch">
+                        Stuck in lockdown? Not able to get to the shops? 
+                        Bored of the same old drinks? 
+                        Never fear Lockdown Cocktail is here! 
+                        Inspo from your cupboards to shake up a new cocktail in moments. 
+                        </p>
                     </div>
                 </div>
                 
@@ -55,12 +59,15 @@
                             <!--Search Form-->
                             <form class="form-inline md-form active-cyan-2 mr-auto mb-4 justify-content-center">
                                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                                <button class="search-button" type="submit">Search</button>
+                                <button onclick="getCocktail()" class="search-button" type="submit">Get My Random Cocktail</button>
                             </form>
                             <!--Search Form-->
                         </div>
                     </div>
                 </div>
+                <div id="cocktail-card"></div>
+                <div id="data"></div>
+                <div id="image"></div>
                 <!--User Input Search Bar-->
             </div>
         </section>
@@ -134,6 +141,7 @@
     </footer>
  </div>
 <!-- Footer -->
+<script src="assets/js/getCocktail.js"></script>
  
 </body>
 </html>

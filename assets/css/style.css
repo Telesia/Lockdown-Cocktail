@@ -24,6 +24,7 @@
     line-height: 1.5;
     letter-spacing: 1px;
 }
+
 /* Taken from https://mdbootstrap.com/docs/jquery/forms/search/*/ 
 .active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
   border-bottom: 1px solid #4dd0e1;
