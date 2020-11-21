@@ -25,7 +25,7 @@ async function getCocktail() {
     console.log(typeof(img));
     document.getElementById("cocktail-card").innerHTML = drinkName;
     document.getElementById("data").innerHTML = data;
-    document.getElementById("image").innerHTML = img;
+    document.getElementById("image").innerHTML = '<img src="'+img+'">'; //credit: https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object
 }
 
 
