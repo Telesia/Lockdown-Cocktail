@@ -1,10 +1,8 @@
-//selectors
 
-
-function displayCocktailImage() {
+/*function displayCocktailImage() {
 }
  
-displayCocktailImage();
+displayCocktailImage();*/
 //Display data from Cocktaildb API - user search value
 //Below are two different methods to collect data from an API. https://www.youtube.com/watch?v=tc8DU14qX6I as a guide to write the code
 
@@ -27,6 +25,7 @@ async function getCocktail() {
     document.getElementById("data").innerHTML = data;
     document.getElementById("image").innerHTML = '<img src="'+img+'">'; //credit: https://www.codegrepper.com/code-examples/javascript/how+to+display+image+in+html+from+json+object
 }
+
 
 
 getCocktail() 

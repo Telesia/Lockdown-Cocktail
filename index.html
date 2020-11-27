@@ -55,47 +55,69 @@
                 <!--User Input Search Bar-->
                 <div class="row container-fluid">
                     <div class="col">
-                        <div class="form">
-                            <!--Search Form-->
-                            <form class="form-inline md-form active-cyan-2 mr-auto mb-4 justify-content-center">
-                                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                                <button onclick="getCocktail()" class="search-button" type="submit">Get My Random Cocktail</button>
-                            </form>
-                            <!--Search Form-->
+                        <button onclick="getCocktail()" class="search-button justify-content-center" type="submit">Get Me My Random Cocktail Quick!</button>
+                    </div>
+                        <!--Display Cocktail from User Search Bar-->
+                        <div>
+                            <div class="row">
+                                <div class="col mt-5 mb-5 justify-content-center">
+                                    <div id="" class="" ></div>
+                                </div>
+                            </div>
                         </div>
+                        <!--Display Cocktail from User Search Bar-->
+
                     </div>
                 </div>
                 <!--User Input Search Bar-->
                 <!--Data Display from CocktailDB API-->
                 <div class="row container-fluid">
-                    <div class="col-md-8 mx-auto text-center">
-                    <!--Cocktail Name--> 
-                    <div class="row">
-                        <div class="col mt-2 justify-content-center">
-                            <div id="cocktail-card" class=""></div>
+                    <div class="col-md-8 mt-5 mx-auto text-center">
+                        <!--Cocktail Name--> 
+                        <div class="row">
+                            <div class="col mt-2 justify-content-center">
+                                <div id="cocktail-card" class=""></div>
+                            </div>
+                        </div>    
+                        <!--Cocktail Making Instructions-->
+                        <div class="row">
+                            <div class="col mt-2 justify-content-center">
+                                <div id="data" class=""></div>
+                            </div>
                         </div>
-                    </div>    
-                    <!--Cocktail Making Instructions-->
-                    <div class="row">
-                        <div class="col mt-2 justify-content-center">
-                            <div id="data" class=""></div>
+                        <!--Cocktail Image-->
+                        <div class="row">
+                            <div class="col mt-5 mb-5 justify-content-center">
+                                <div id="image" class="" ></div>
+                            </div>
                         </div>
                     </div>
-                    <!--Cocktail Image-->
-                    <div class="row">
-                        <div class="col mt-5 justify-content-center">
-                            <div id="image" class="" ></div>
-                        </div>
+                </div>
+        </section>
+        <!--User Search for a Cocktail-->
+        <section>
+            <div class="row container-fluid">
+                <div class="col">
+                    <div class="form">
+                        <!--Search Form-->
+                        <form class="form-inline md-form active-cyan-2 mr-auto mb-4 justify-content-center">
+                            <input id="cocktailSearch" class="form-control mr-sm-2" type="text" placeholder="Search" value="Cosmo" aria-label="Search">
+                        </form>
+                        <!--Search Form-->
                     </div>
-                
-            </div>
-        
-            </div>
-                <!--Data Display from CocktailDB API-->
-                
+                        <!--Display Cocktail from User Search Bar-->
+                        <div>
+                            <div class="row">
+                                <div class="col mt-5 mb-5 justify-content-center">
+                                    <div id="" class="" ></div>
+                                </div>
+                            </div>
+                        </div>
+                          <!--Display Cocktail from User Search Bar-->
+
+                </div>
             </div>
         </section>
-        
     </main>
     <!-- Footer -->
     <div class="flex-wrapper">
