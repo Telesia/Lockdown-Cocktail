@@ -27,7 +27,6 @@ async function getCocktail() {
 }
 
 
-
 getCocktail() 
     .then(response => {
         console.log("WOOP!");
