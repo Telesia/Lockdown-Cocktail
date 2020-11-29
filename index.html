@@ -12,7 +12,7 @@
     <header>
     <!--Nav Bar-->
         <nav class="navbar nav navbar-expand-lg navbar-light">
-                <div class="container">
+                
                     <!--Navbar Brand-->
                     <a class="navbar-brand" href="index.html"><img src="https://img.icons8.com/doodle/48/000000/cocktail--v1.png" alt="Icon logo of Lockdown Cocktail. Cocktail Glass."></a>
                     <!--Navbar Brand-->
@@ -33,12 +33,12 @@
                         </ul>
                     </div>
                     <!--Navbar Burger Button Content-->
-                </div>
+                
             </nav> 
     <!--Nav Bar-->
     </header>
     <main>
-        <section id="outer-container">
+        <section id="container container-random-cocktail">
             <div class="container-fluid main-container">
                 <div class="row">
                     <div class="col">
@@ -52,26 +52,16 @@
                     </div>
                 </div>
                 
-                <!--User Input Search Bar-->
-                <div class="row container-fluid">
+                <!--Random Cocktail Button-->
+                <div class="row ct-button-random-wrapper">
                     <div class="col">
-                        <button onclick="getCocktail()" class="search-button justify-content-center" type="submit">Get Me My Random Cocktail Quick!</button>
-                    </div>
-                        <!--Display Cocktail from User Search Bar-->
-                        <div>
-                            <div class="row">
-                                <div class="col mt-5 mb-5 justify-content-center">
-                                    <div id="" class="" ></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Display Cocktail from User Search Bar-->
-
+                        <button onclick="getCocktail()" class="ct-random-button justify-content-center" type="submit">Get Me My Random Cocktail Quick!</button>
                     </div>
                 </div>
-                <!--User Input Search Bar-->
+            
+                <!--Random Cocktail Button-->
                 <!--Data Display from CocktailDB API-->
-                <div class="row container-fluid">
+                <div class="row container">
                     <div class="col-md-8 mt-5 mx-auto text-center">
                         <!--Cocktail Name--> 
                         <div class="row">
@@ -86,11 +76,13 @@
                             </div>
                         </div>
                         <!--Cocktail Image-->
-                        <div class="row">
-                            <div class="col mt-5 mb-5 justify-content-center">
-                                <div id="image" class="" ></div>
+                        <div class="row random-ct-image">
+                            <div class="col-sm-12 mt-5 mb-5">
+                                <div id="image" ></div>
                             </div>
                         </div>
+                        
+            
                     </div>
                 </div>
         </section>

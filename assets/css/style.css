@@ -1,56 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .main-container {
-    padding-top: 0rem;
+  padding-top: 0rem;
 }
 
-
-/*------------Main Search Section-----------*/
-
+/*------------Main Random Cocktail Section-----------*/
 .main-heading {
-    color: red;
-    text-align: center;
-    padding: 2rem;
-    letter-spacing: 4px;
+  color: pink;
+  text-align: center;
+  padding: 2rem;
+  letter-spacing: 4px;
 }
 
 .sales-pitch {
-    color: grey;
-    text-align: center;
-    line-height: 1.5;
-    letter-spacing: 1px;
+  color: grey;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
-/* Taken from https://mdbootstrap.com/docs/jquery/forms/search/*/ 
+/* Taken from https://mdbootstrap.com/docs/jquery/forms/search/*/
 .active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
   border-bottom: 1px solid #4dd0e1;
-  box-shadow: 0 1px 0 0 #4dd0e1;
+  -webkit-box-shadow: 0 1px 0 0 #4dd0e1;
+          box-shadow: 0 1px 0 0 #4dd0e1;
 }
 
-#image {
-   
-   
- 
+.random-ct-image {
+  display: center;
+  height: auto;
+  background-size: cover;
+}
+
+.ctimage {
+  height: 50vw;
 }
 
 /*------------Footer-----------*/
-
-.footer-container {
-    padding: 2rem;
-  
-    position: relative;
-}
-
-
-
 /*https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing*/
 .flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   min-height: 10vh;
-  flex-direction: column;
-  justify-content: space-between
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+/*# sourceMappingURL=style.css.map */
